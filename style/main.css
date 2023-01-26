@@ -1,0 +1,413 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+/* START HEADER  */
+header {
+    background-image: url(../images/banner-bg.png);
+    background-size: cover;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 10px 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 80px;
+}
+
+h1 span {
+    font-size: 70px;
+}
+
+.content p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: 30px;
+}
+
+header button {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-color: white;
+    border-radius: 15px;
+    text-transform: capitalize;
+    margin: 50px auto;
+}
+
+header .one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+header .circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 10px;
+}
+
+/* END HEADER  */
+
+/* start about section  */
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about img {
+    width: 30%;
+    margin: 30px;
+}
+
+.text {
+    width: 50%;
+    margin: 20px;
+}
+
+h2 {
+    font-size: 30px;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    margin: 20px;
+}
+
+.text p {
+    font-size: 15px;
+    text-transform: capitalize;
+    margin: 20px;
+}
+
+.text button {
+    padding: 10px;
+    background-color: rgba(165, 42, 42, 0.925);
+    color: white;
+    border-radius: 10px;
+    border-style: none;
+    margin: 20px;
+}
+
+/* end about section  */
+
+/* start game section  */
+.all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3 {
+    font-size: 30px;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    margin: 20px;
+    text-align: center;
+}
+
+.block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    color: white;
+}
+
+.con {
+    width: calc((100% - 80px) / 4);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.con img {
+    width: 100%;
+    height: 300px;
+}
+
+.con .num {
+    border-radius: 50%;
+    border: 1px solid red;
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 4px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.game span {
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+.game p {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.con button {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-style: none;
+    border-radius: 15px;
+    border: solid 1px red;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+/* end game section  */
+
+/* start how section  */
+.how {
+    width: 100%;
+    background-color: black;
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+h4 {
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+.how p {
+    font-size: 15px;
+    width: 700px;
+    line-height: 2;
+    text-align: center;
+}
+
+.img {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.how button {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-style: none;
+    border-radius: 15px;
+    border: solid 1px red;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+/* end how section  */
+
+/* start price section  */
+.price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 90px 0;
+}
+
+.price p {
+    width: 800px;
+}
+
+.parent {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.blok {
+    width: 250px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 25px;
+    border-radius: 15px;
+    margin-top: 60px;
+}
+
+.s {
+    font-size: 30px;
+    color: red;
+}
+
+.n {
+    font-size: 35px;
+    font-weight: 900;
+    color: #333;
+}
+
+.l {
+    font-size: 15px;
+}
+
+.price .btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button {
+    padding: 15px;
+    background-color: brown;
+    color: white;
+    border-style: none;
+    border-radius: 15px;
+    text-transform: capitalize;
+    width: 120px;
+    margin: 20px;
+}
+
+/* end price section  */
+
+/* start customer section  */
+.customer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.customer p {
+    width: 900px;
+    margin: 20px;
+}
+
+.customer img {
+    margin: 20px;
+}
+
+/* end customer section  */
+
+/* start get section  */
+.get {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px gray;
+    margin: 50px;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form input {
+    height: 50px;
+    margin: 15px 20px;
+    padding: 10px;
+    width: 50%;
+}
+
+.form input::placeholder {
+    text-transform: capitalize;
+}
+
+.frame {
+    width: 90%;
+}
+
+.frame img {
+    width: 95%;
+}
+
+/* start get section  */
+
+/* start footr  */
+footer {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer input {
+    border-style: none;
+    background-color: transparent;
+    height: 50px;
+    outline: none;
+    color: #fffefee3;
+    border-bottom: 2px solid gray;
+    width: 300px;
+    margin: 40px;
+}
+
+footer input::placeholder {
+    color: gray;
+    text-transform: capitalize;
+}
+
+.email-btn {
+    background-color: transparent;
+    width: 140px;
+    border: 1px solid #fffefee3;
+    outline: none;
+    color: gray;
+}
+
+footer span {
+    color: #fffefee3;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 30px;
+}
+
+/* end footr  */
