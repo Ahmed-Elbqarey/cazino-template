@@ -81,17 +81,17 @@ header .circle {
 }
 
 .about img {
-    width: 30%;
-    margin: 30px;
+    width: 35%;
+    margin: 30px auto;
 }
 
 .text {
     width: 50%;
-    margin: 20px;
+    margin: 20px auto;
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 20px;
     text-transform: capitalize;
     letter-spacing: 3px;
     margin: 20px;
@@ -362,13 +362,9 @@ button {
     width: 90%;
 }
 
-.frame img {
-    width: 95%;
-}
+/* end get section  */
 
-/* start get section  */
-
-/* start footr  */
+/* start footer  */
 footer {
     background-color: #333;
     color: white;
@@ -410,4 +406,88 @@ footer span {
     margin: 30px;
 }
 
-/* end footr  */
+/* end footer  */
+
+@media screen and (max-width: 550px) {
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about .text {
+        width: 100%;
+    }
+
+    .about img {
+        width: 90%;
+    }
+
+    .game .block {
+        flex-wrap: wrap;
+        width: 95%;
+        margin: auto;
+    }
+
+    .game .block .con {
+        width: 47%;
+        margin: 5px;
+    }
+
+    .game .block .con img {
+        height: 130px;
+    }
+
+    .game .block .con p {
+        font-size: 10px;
+        margin: 0;
+    }
+
+    .game .block .con button {
+        padding: 5px;
+        width: 80px;
+    }
+
+    .how h4 {
+        font-size: 35px;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .how p {
+        width: 100%;
+    }
+
+    .how .img {
+        width: 100%;
+    }
+
+    .price p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .price .parent {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .price .btn .one {
+        display: none;
+    }
+
+    .get {
+        margin: 10px auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .get .form input {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .get .frame {
+        width: 90%;
+        margin: auto;
+    }
+}
